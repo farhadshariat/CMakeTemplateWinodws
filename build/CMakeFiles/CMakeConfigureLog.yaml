@@ -1,0 +1,265 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/mingw64/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/3.29.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/CMakeScratch/TryCompile-zq2f2r"
+      binary: "C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/CMakeScratch/TryCompile-zq2f2r"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/mingw64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/CMakeScratch/TryCompile-zq2f2r'
+        
+        Run Build Command(s): "C:/Program Files/mingw64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_20aaf/fast
+        C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_20aaf.dir\\build.make CMakeFiles/cmTC_20aaf.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/CMakeScratch/TryCompile-zq2f2r'
+        Building CXX object CMakeFiles/cmTC_20aaf.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\PROGRA~1\\mingw64\\bin\\CLANG_~1.EXE   -v -MD -MT CMakeFiles/cmTC_20aaf.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_20aaf.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_20aaf.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\mingw64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        (built by Brecht Sanders, r1) clang version 18.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/PROGRA~1/mingw64/bin
+         (in-process)
+         "C:/Program Files/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/CMakeScratch/TryCompile-zq2f2r -v -fcoverage-compilation-dir=C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/CMakeScratch/TryCompile-zq2f2r -resource-dir "C:/Program Files/mingw64/lib/clang/18" -dependency-file "CMakeFiles\\\\cmTC_20aaf.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_20aaf.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0 -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0/backward -internal-isystem C:/PROGRA~1/mingw64/include/c++/14.1.0 -internal-isystem C:/PROGRA~1/mingw64/include/c++/14.1.0/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/include/c++/14.1.0/backward -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++ -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0/backward -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1/backward -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14/backward -internal-isystem "C:/Program Files/mingw64/lib/clang/18/include" -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/PROGRA~1/mingw64/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_20aaf.dir\\\\CMakeCXXCompilerABI.cpp.obj" -x c++ "C:\\\\Program Files\\\\mingw64\\\\share\\\\cmake-3.29\\\\Modules\\\\CMakeCXXCompilerABI.cpp"
+        clang -cc1 version 18.1.5 based upon LLVM 18.1.5 default target x86_64-w64-mingw32
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/backward"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0/backward"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0/backward"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1/backward"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14/backward"
+        ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/PROGRA~1/mingw64/include/c++/14.1.0
+         C:/PROGRA~1/mingw64/include/c++/14.1.0/x86_64-w64-mingw32
+         C:/PROGRA~1/mingw64/include/c++/14.1.0/backward
+         C:/Program Files/mingw64/lib/clang/18/include
+         C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include
+         C:/PROGRA~1/mingw64/include
+        End of search list.
+        Linking CXX executable cmTC_20aaf.exe
+        "C:\\Program Files\\mingw64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_20aaf.dir\\link.txt --verbose=1
+        "C:\\Program Files\\mingw64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_20aaf.dir/objects.a
+        C:\\PROGRA~1\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_20aaf.dir/objects.a @CMakeFiles\\cmTC_20aaf.dir\\objects1.rsp
+        C:\\PROGRA~1\\mingw64\\bin\\CLANG_~1.EXE  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_20aaf.dir/objects.a -Wl,--no-whole-archive -o cmTC_20aaf.exe -Wl,--out-implib,libcmTC_20aaf.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        (built by Brecht Sanders, r1) clang version 18.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/PROGRA~1/mingw64/bin
+         "C:/PROGRA~1/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_20aaf.exe C:/PROGRA~1/mingw64/x86_64-w64-mingw32/lib/crt2.o C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/PROGRA~1/mingw64/x86_64-w64-mingw32/lib -LC:/PROGRA~1/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/PROGRA~1/mingw64/lib -v --whole-archive "CMakeFiles\\\\cmTC_20aaf.dir/objects.a" --no-whole-archive --out-implib libcmTC_20aaf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
+        GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r1) 2.42
+        mingw32-make[1]: Leaving directory 'C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/CMakeScratch/TryCompile-zq2f2r'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/PROGRA~1/mingw64/include/c++/14.1.0]
+          add: [C:/PROGRA~1/mingw64/include/c++/14.1.0/x86_64-w64-mingw32]
+          add: [C:/PROGRA~1/mingw64/include/c++/14.1.0/backward]
+          add: [C:/Program Files/mingw64/lib/clang/18/include]
+          add: [C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include]
+          add: [C:/PROGRA~1/mingw64/include]
+        end of search list found
+        collapse include dir [C:/PROGRA~1/mingw64/include/c++/14.1.0] ==> [C:/Program Files/mingw64/include/c++/14.1.0]
+        collapse include dir [C:/PROGRA~1/mingw64/include/c++/14.1.0/x86_64-w64-mingw32] ==> [C:/Program Files/mingw64/include/c++/14.1.0/x86_64-w64-mingw32]
+        collapse include dir [C:/PROGRA~1/mingw64/include/c++/14.1.0/backward] ==> [C:/Program Files/mingw64/include/c++/14.1.0/backward]
+        collapse include dir [C:/Program Files/mingw64/lib/clang/18/include] ==> [C:/Program Files/mingw64/lib/clang/18/include]
+        collapse include dir [C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include] ==> [C:/Program Files/mingw64/x86_64-w64-mingw32/include]
+        collapse include dir [C:/PROGRA~1/mingw64/include] ==> [C:/Program Files/mingw64/include]
+        implicit include dirs: [C:/Program Files/mingw64/include/c++/14.1.0;C:/Program Files/mingw64/include/c++/14.1.0/x86_64-w64-mingw32;C:/Program Files/mingw64/include/c++/14.1.0/backward;C:/Program Files/mingw64/lib/clang/18/include;C:/Program Files/mingw64/x86_64-w64-mingw32/include;C:/Program Files/mingw64/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/CMakeScratch/TryCompile-zq2f2r']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/mingw64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_20aaf/fast]
+        ignore line: [C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_20aaf.dir\\build.make CMakeFiles/cmTC_20aaf.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/CMakeScratch/TryCompile-zq2f2r']
+        ignore line: [Building CXX object CMakeFiles/cmTC_20aaf.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\PROGRA~1\\mingw64\\bin\\CLANG_~1.EXE   -v -MD -MT CMakeFiles/cmTC_20aaf.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_20aaf.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_20aaf.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\mingw64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [(built by Brecht Sanders  r1) clang version 18.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/PROGRA~1/mingw64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:/Program Files/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/CMakeScratch/TryCompile-zq2f2r -v -fcoverage-compilation-dir=C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/CMakeScratch/TryCompile-zq2f2r -resource-dir "C:/Program Files/mingw64/lib/clang/18" -dependency-file "CMakeFiles\\\\cmTC_20aaf.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_20aaf.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0 -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0/backward -internal-isystem C:/PROGRA~1/mingw64/include/c++/14.1.0 -internal-isystem C:/PROGRA~1/mingw64/include/c++/14.1.0/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/include/c++/14.1.0/backward -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++ -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0/backward -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1/backward -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14/x86_64-w64-mingw32 -internal-isystem C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14/backward -internal-isystem "C:/Program Files/mingw64/lib/clang/18/include" -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/PROGRA~1/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/PROGRA~1/mingw64/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_20aaf.dir\\\\CMakeCXXCompilerABI.cpp.obj" -x c++ "C:\\\\Program Files\\\\mingw64\\\\share\\\\cmake-3.29\\\\Modules\\\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [clang -cc1 version 18.1.5 based upon LLVM 18.1.5 default target x86_64-w64-mingw32]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/backward"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/c++/14.1.0/backward"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1.0/backward"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14.1/backward"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/g++-v14/backward"]
+        ignore line: [ignoring nonexistent directory "C:/PROGRA~1/mingw64/x86_64-w64-mingw32/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/PROGRA~1/mingw64/include/c++/14.1.0]
+        ignore line: [ C:/PROGRA~1/mingw64/include/c++/14.1.0/x86_64-w64-mingw32]
+        ignore line: [ C:/PROGRA~1/mingw64/include/c++/14.1.0/backward]
+        ignore line: [ C:/Program Files/mingw64/lib/clang/18/include]
+        ignore line: [ C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include]
+        ignore line: [ C:/PROGRA~1/mingw64/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_20aaf.exe]
+        ignore line: ["C:\\Program Files\\mingw64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_20aaf.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\mingw64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_20aaf.dir/objects.a]
+        ignore line: [C:\\PROGRA~1\\mingw64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_20aaf.dir/objects.a @CMakeFiles\\cmTC_20aaf.dir\\objects1.rsp]
+        ignore line: [C:\\PROGRA~1\\mingw64\\bin\\CLANG_~1.EXE  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_20aaf.dir/objects.a -Wl --no-whole-archive -o cmTC_20aaf.exe -Wl --out-implib libcmTC_20aaf.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [(built by Brecht Sanders  r1) clang version 18.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/PROGRA~1/mingw64/bin]
+        link line: [ "C:/PROGRA~1/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_20aaf.exe C:/PROGRA~1/mingw64/x86_64-w64-mingw32/lib/crt2.o C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/PROGRA~1/mingw64/x86_64-w64-mingw32/lib -LC:/PROGRA~1/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/PROGRA~1/mingw64/lib -v --whole-archive "CMakeFiles\\\\cmTC_20aaf.dir/objects.a" --no-whole-archive --out-implib libcmTC_20aaf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+          arg [C:/PROGRA~1/mingw64/bin/ld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_20aaf.exe] ==> ignore
+          arg [C:/PROGRA~1/mingw64/x86_64-w64-mingw32/lib/crt2.o] ==> obj [C:/PROGRA~1/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+          arg [C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o] ==> obj [C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o]
+          arg [-LC:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0] ==> dir [C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0]
+          arg [-LC:/PROGRA~1/mingw64/x86_64-w64-mingw32/lib] ==> dir [C:/PROGRA~1/mingw64/x86_64-w64-mingw32/lib]
+          arg [-LC:/PROGRA~1/mingw64/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/PROGRA~1/mingw64/x86_64-w64-mingw32/mingw/lib]
+          arg [-LC:/PROGRA~1/mingw64/lib] ==> dir [C:/PROGRA~1/mingw64/lib]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\\\cmTC_20aaf.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_20aaf.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o] ==> obj [C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        linker tool for 'CXX': C:/PROGRA~1/mingw64/bin/ld
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/PROGRA~1/mingw64/x86_64-w64-mingw32/lib/crt2.o] ==> [C:/Program Files/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o] ==> [C:/Program Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o]
+        collapse obj [C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o] ==> [C:/Program Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        collapse library dir [C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0] ==> [C:/Program Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0]
+        collapse library dir [C:/PROGRA~1/mingw64/x86_64-w64-mingw32/lib] ==> [C:/Program Files/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/PROGRA~1/mingw64/x86_64-w64-mingw32/mingw/lib] ==> [C:/Program Files/mingw64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:/PROGRA~1/mingw64/lib] ==> [C:/Program Files/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Program Files/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/Program Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o;C:/Program Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        implicit dirs: [C:/Program Files/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0;C:/Program Files/mingw64/x86_64-w64-mingw32/lib;C:/Program Files/mingw64/x86_64-w64-mingw32/mingw/lib;C:/Program Files/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/mingw64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/mingw64/bin/ld" "-v"
+      GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r1) 2.42
+...

@@ -1,0 +1,3 @@
+C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/main.dir
+C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/edit_cache.dir
+C:/Users/Unitec/Desktop/C++/CmakeTemplate/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Unitec/Desktop/C++/CmakeTemplate/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\CLANG_~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\Unitec\\Desktop\\C++\\CmakeTemplate\\main.cpp",
+  "file": "C:/Users/Unitec/Desktop/C++/CmakeTemplate/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
+}
+]
